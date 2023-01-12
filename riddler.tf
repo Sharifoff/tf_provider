@@ -1,4 +1,4 @@
 resource "local_file" "riddler" {
-    filename = "/root/riddler"
+    filename = "/home/ec2-user/riddler"
     content = "riddler"
 }

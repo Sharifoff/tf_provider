@@ -1,4 +1,4 @@
 resource "local_file" "zoom" {
-    filename = "/root/zoom"
+    filename = "/home/ec2-user/zoom"
     content = "zoom"
 }
